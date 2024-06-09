@@ -1,0 +1,40 @@
+.App {
+    margin-left: 52px;
+    margin-top: -10px;
+}
+
+.label-assign {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#dropdown-options {
+    width: 369px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0efff;
+    font-size: 16px;
+    cursor: pointer;
+    transition:
+        background-color 0.3s,
+        border-color 0.3s;
+}
+
+#dropdown-options:focus {
+    outline: none;
+    box-shadow: 0 0 5px #a7a3ff;
+}
+
+option {
+    font-size: 18px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+#dropdown-options:hover {
+    background-color: #f0efff;
+    border-color: #a7a3ff;
+}

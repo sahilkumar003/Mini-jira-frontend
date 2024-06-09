@@ -1,0 +1,39 @@
+.container {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+
+    .loading {
+        margin-left: 50px;
+    }
+}
+
+.userItem {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    padding: 8px 15px;
+    background-color: #f0efff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-left: 38px;
+    width: 369px;
+
+    &:hover {
+        background-color: #dcdcff;
+    }
+}
+
+.userName {
+    flex: 1;
+}
+
+.userCheckbox {
+    display: flex;
+    align-items: center;
+
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+$font-family: "Poppins", sans-serif;
+$first-color: #4d47c3;
+$second-color: #a7a3ff;
+$background-color: #f0efff;
+
+.add-members-text {
+  margin-left: 80px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  margin-right: 60px;
+  .project-input {
+    width: 369px;
+    height: 62px;
+    border-radius: 8px;
+    border: 2px solid $background-color;
+    color: $second-color;
+    background: $background-color;
+    text-indent: 9px;
+    margin-left: 70px;
+
+    &::placeholder {
+      color: $second-color;
+      font-size: 16px;
+    }
+  }
+
+  .search-bar {
+    border-radius: 8px;
+    border: 2px solid $background-color;
+    color: $second-color;
+    background: $background-color;
+    margin-left: 70px;
+    width: 155px;
+    text-indent: 9px;
+
+    &::placeholder {
+      color: $second-color;
+      font-size: 16px;
+    }
+  }
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.add-project-btn {
+  button {
+    margin-top: 15px;
+    width: 370px;
+    height: 62px;
+    background-color: #4caf50;
+    color: #fff;
+    background: $first-color;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 61px 0px #4d47c366;
+    margin-left: 70px;
+  }
+}
+
+.checkbox {
+  position: relative;
+  left: 20px;
+}
